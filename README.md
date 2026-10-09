@@ -6,8 +6,8 @@ The quadratic identity is exact. The funnel claims are kept as stated: volume ex
 
 ## Locked claims
 
-- On an \(x^2\) graph the derivative at \(x=3\) is \(6\). Boundaries \(2\) and \(4\) sum to \(6\). The average of the derivatives at those boundaries, \(4\) and \(8\), is also \(6\).
-- Boundaries \(-1\) and \(7\) have the same midpoint. Pushing the boundaries together leaves the midpoint fixed.
+- On an x^2 graph the derivative at x=3 is 6. Boundaries 2 and 4 sum to 6. The average of the derivatives at those boundaries, 4 and 8, is also 6.
+- Boundaries -1 and 7 have the same midpoint. Pushing the boundaries together leaves the midpoint fixed.
 - The cone, or its funnel, is stretched. Its volume is exact and unchanging. Its circumference is also fixed.
 - The speed at which the boundary points come together is taken as the acceleration experienced by water flowing in the cone.
 - The funnel may elongate without bound. Elongation moves between an active phase and a pause phase. Water always leaves the circumference and reaches the tip in the same time. On that timing, the lengthening funnel requires acceleration.
@@ -15,15 +15,20 @@ The quadratic identity is exact. The funnel claims are kept as stated: volume ex
 
 ## Reading kept next to those claims
 
-- For \(f(x)=x^2\), \(f'(m)=x_1+x_2\), so the midpoint slope equals the sum of the boundary coordinates and the average of the boundary slopes.
+- For f(x)=x^2, f'(m)=x_1+x_2, so the midpoint slope equals the sum of the boundary coordinates and the average of the boundary slopes.
 - A similar right circular cone cannot stretch while both enclosed volume and one circumference stay fixed. Holding both invariants means the generators are redrawn around them.
 - Closing speed is length per time. Water acceleration is length per time squared. Closing speed can set the axial flow. It is not itself the acceleration. Acceleration inside the cone is the rate of change of the flow that closing produces.
-- Fixed arrival time on a lengthening funnel forces a rising average speed, \(L/T\). A matched launch speed makes each pause constant-velocity. Acceleration during the trip is required if the launch speed is fixed, or if the tip is still receding.
-- Ideal wall work is traded into kinetic energy or pressure. Depletion needs viscosity or turbulence. Gravity enters only as the height term, \(\dot m\, g\, \Delta h\).
-- Integrating the dynamics shows a shrinking area \(12w\) under the constant midpoint slope, a closing distance, a trip length \(L\) in fixed time \(T\), and an energy cost that grows like \(L^2\). It does not show a constant \(g\).
+- Fixed arrival time on a lengthening funnel forces a rising average speed, L/T. A matched launch speed makes each pause constant-velocity. Acceleration during the trip is required if the launch speed is fixed, or if the tip is still receding.
+- Ideal wall work is traded into kinetic energy or pressure. Depletion needs viscosity or turbulence. Gravity enters only as the height term, m-dot g Delta h.
+- Integrating the dynamics shows a shrinking area 12w under the constant midpoint slope, a closing distance, a trip length L in fixed time T, and an energy cost that grows like L^2. It does not show a constant g.
+- The paper appendices already contain the cone, a sector boundary pair, a radial pause scale, and a winding integral. They do not contain this midpoint tool. Rerunning the paper targets on this dynamic does not recover them.
 
 Full write-up: [notes/record.md](notes/record.md).
 
 Integral ledger: [notes/integrals.md](notes/integrals.md).
+
+Paper comparison: [notes/paper-comparison.md](notes/paper-comparison.md).
+
+Calculation attempt: [notes/calculation-attempt.md](notes/calculation-attempt.md).
 
 Check the identity: `python quadratic_midpoint.py`.
