@@ -20,7 +20,10 @@ The quadratic identity is exact. The funnel claims are kept as stated: volume ex
 - Closing speed is length per time. Water acceleration is length per time squared. Closing speed can set the axial flow. It is not itself the acceleration. Acceleration inside the cone is the rate of change of the flow that closing produces.
 - Fixed arrival time on a lengthening funnel forces a rising average speed, \(L/T\). A matched launch speed makes each pause constant-velocity. Acceleration during the trip is required if the launch speed is fixed, or if the tip is still receding.
 - Ideal wall work is traded into kinetic energy or pressure. Depletion needs viscosity or turbulence. Gravity enters only as the height term, \(\dot m\, g\, \Delta h\).
+- Integrating the dynamics shows a shrinking area \(12w\) under the constant midpoint slope, a closing distance, a trip length \(L\) in fixed time \(T\), and an energy cost that grows like \(L^2\). It does not show a constant \(g\).
 
 Full write-up: [notes/record.md](notes/record.md).
+
+Integral ledger: [notes/integrals.md](notes/integrals.md).
 
 Check the identity: `python quadratic_midpoint.py`.
