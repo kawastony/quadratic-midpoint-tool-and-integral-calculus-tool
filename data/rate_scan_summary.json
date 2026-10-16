@@ -1,0 +1,7 @@
+{
+  "1e-05": {"peak_phi": 0.6402, "peak_height": 787.9, "fwhm": 0.0070},
+  "0.0001": {"peak_phi": 0.6402, "peak_height": 654.9, "fwhm": 0.0080},
+  "0.001": {"peak_phi": 0.6407, "peak_height": 269.7, "fwhm": 0.0216},
+  "0.01": {"peak_phi": 0.6452, "peak_height": 82.9, "fwhm": 0.0101},
+  "note": "Synthetic smearing only. See notes/rate-dependence-results.md"
+}
