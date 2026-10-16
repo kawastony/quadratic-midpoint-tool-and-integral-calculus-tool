@@ -1,0 +1,5 @@
+{
+  "phi_c": 0.64,
+  "zc": 6.0,
+  "note": "Minimal onset: z=0 for phi<phi_c, z=zc + a*sqrt(phi-phi_c) for phi>=phi_c"
+}
