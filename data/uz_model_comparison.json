@@ -1,0 +1,6 @@
+{
+  "UZ-1": {"rmse": 0.191, "params": [6.0, 2.0, 1.5]},
+  "UZ-2": {"rmse": 0.257, "params": [6.0, 2.0, 1.0, 0.03]},
+  "UZ-3": {"rmse": 0.489, "params": [5.5, 2, 50, 0.02]},
+  "note": "Synthetic coordination from published sqrt scaling"
+}
