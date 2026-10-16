@@ -1,0 +1,8 @@
+{
+  "dataset": "Synthetic from O'Hern 2002/2003 and Majmudar scalings",
+  "phi_c": 0.64,
+  "Zc": 6.0,
+  "Tier1_params": {"u_star": 0.1158, "Jc": 0.0382},
+  "Tier1_rmse": 0.00683,
+  "note": "See notes/granular-fit-results.md"
+}
