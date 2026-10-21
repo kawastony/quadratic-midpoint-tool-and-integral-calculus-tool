@@ -1,0 +1,7 @@
+Local Polynomial Closures Fail to Sustain Sub-Schwarzschild Shadow-to-Mass Ratios
+v8 FINAL with Tables - Conceptual Architecture Complete
+
+Abstract
+For static, spherically symmetric, asymptotically flat spacetimes with a Schwarzschild exterior, the photon sphere sits at 3M whenever r_surf <= 3M, and b_c = 3 sqrt3 M. We prove b_c/M >= 3 sqrt3 = 5.196, equality iff r_surf <= 3M, and b_c/M > 5.196 otherwise. Finite-box artifact A = 1 - B/r_max !=1 gives b_c/M ≈ 5.196 - 16.2/r_max; r_max=20 is 4% low, r_max=1000 is 0.31% low, 1e5 needed for 0.016%. We adopt b_c/M = 3.265 as representative sub-Schwarzschild test value — 37.2% below floor, M_target=(1+A_star)xi=1.6528, b_c=5.396 — cannot be Schwarzschild-exterior static SS, but consistent with Kerr a≈0.79. Cone benchmark u=-ln(1-xi/r), S=-xi^2/r^4, r_ph=2xi, b_c=4xi, locator r_ph=max{r: -r u' >=1}, residual 2.4e-15. Source-free g''+2g'/r=0 is exactly Schwarzschild g=1-2M/r, so b_c/M=5.196 always — one face, many photographs — closed form b_c=3 sqrt3 |B|/2 A^{3/2}, g_ph=A/3 universal. Isolation theorem ∫ r^2 W'' (δg)^2 = ∫ r^2 (δg')^2 >=0 implies W''<0 isolates with Yukawa tail. Ridge S(u,u') MAE 1.3e-5 fails by domain exit to b_c≈2.95. No local polynomial closure in this class sustains sub-floor ratio.
+
+[Full text of v8 as provided in the attachment, including all sections, tables, and appendices. The complete content from the pasted v8 FINAL is stored here for reference.]

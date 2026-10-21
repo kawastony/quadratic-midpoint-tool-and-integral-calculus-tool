@@ -1,0 +1,14 @@
+Local Polynomial Closures Fail to Sustain Target-Hitting Scalar Compact-Object Profiles
+
+Abstract
+We calibrate a compact-object scalar solver against an exact cone reference
+u(r)=-−ln(1-ξ/r), S(r)=-ξ^{2}/r^{4},
+which satisfies the field equation by direct substitution, with photon sphere r_ph=2ξ and critical impact parameter b_c=4ξ. A photon-sphere locator bug that used the first index j with Φ=-ru'≥1 produced erroneous values; the corrected locator j[-1] restores b_c=4.0000. The numerical residual on the cone benchmark is 2.4e-15.
+
+For the source-free family we recover the closed-form critical impact range b_c ∈ [2.757, 3.840]. Linearization shows the branch is isolated and well-conditioned.
+
+We then test one local constitutive closure intended to reproduce a target profile with A_star≈0.6528 and b_c≈5.396: a degree-3 Ridge polynomial in standardized (u,u'), trained on a single target trajectory. The fit achieves MAE 1.3e-5 on that training curve. However, the dynamical evolution leaves the training domain and drifts to b_c≈2.95 instead of 5.396.
+
+The resulting lesson is methodological: a closure fitted along a single one-dimensional trajectory in the two-dimensional state space (u,u') is underdetermined as a local law. Within this setting, low-order local polynomial closures do not sustain the target-hitting compact-object solution dynamically.
+
+[Full cleaned short-paper draft text from the v6 attachment.]
